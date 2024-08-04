@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard = ({id,name,email,handleEdit,handleDelete,handleDetail}) => {
+const ProductCard = ({id,name,email,handleEdit,handleDelete,handleSelectedUser}) => {
   return (
     <div>
         <b>{id}. {name} </b>
@@ -8,7 +8,7 @@ const ProductCard = ({id,name,email,handleEdit,handleDelete,handleDetail}) => {
         <div>
             <button onClick={()=>handleEdit(id)}>Edit</button>
             <button onClick={()=>handleDelete(id)}>Delete</button>
-            <button onClick={()=>handleDetail(id)}>Detail</button>
+            <button onClick={()=>handleSelectedUser(id)}>View Detail</button>
           
           </div>
     </div>
