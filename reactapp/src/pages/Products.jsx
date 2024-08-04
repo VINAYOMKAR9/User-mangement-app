@@ -119,7 +119,7 @@ const Products = () => {
         {singleData?(<SingleUserData data={singleData} />)
         :(
 
-            <div>
+            <div className='CardouterMain'>
             {
                 data && data.map((el)=>{
                     return (

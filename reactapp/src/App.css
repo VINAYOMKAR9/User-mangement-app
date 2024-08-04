@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.CardMain{
+  
+  border: 1px solid rgb(16, 116, 106);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.CardouterMain{
+  
+  border: 1px solid red;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  gap: 20px;
+  padding: 20px;
+  width: 1140px;
+  margin-bottom: 10px;
+}
